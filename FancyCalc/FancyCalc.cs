@@ -11,14 +11,12 @@ namespace FancyCalc
 
         public double Add(int a, int b)
         {
-            throw new NotImplementedException();
-            //return a + b;
+            return a + b;
         }
 
 
         public double Subtract(int a, int b)
         {
-            //throw new NotImplementedException();
             return a - b;
         }
 
@@ -32,7 +30,11 @@ namespace FancyCalc
         public double Culculate(string expression)
         {
             throw new NotImplementedException();
+            /*expression = expression.Replace(" ", string.Empty);
 
+            int a = int.Parse(expression);
+            return a;
+            */
         }
     }
 }
